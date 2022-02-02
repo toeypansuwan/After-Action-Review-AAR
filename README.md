@@ -1,5 +1,9 @@
 # After-Action-Review-AAR
 
 ```laravel
-  route('come');
+  use Illuminate\Support\Facades\Route;
+
+Route::get('/greeting', function () {
+    return 'Hello World';
+});
 ```
