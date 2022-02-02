@@ -1,6 +1,6 @@
 # After-Action-Review-AAR
 
-```laravel
+```php
   use Illuminate\Support\Facades\Route;
 
 Route::get('/greeting', function () {
